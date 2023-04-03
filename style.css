@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e5e7f5;
+   
+    
+}
+
+.container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.header-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+    align-items: center;
+}
+
+.logo {
+    border-radius: 50%;
+        
+}
+.header-navbar {
+    display: flex;
+    align-items: center;
+    gap: 3em;
+
+}
+.nav-menu {
+    color: #A9A5A6;
+    transition: all 1s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
