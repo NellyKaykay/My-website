@@ -1,48 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;700;800;900&family=PT+Serif:wght@400;700&display=swap');
+
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-    background-color: #e5e7f5;
-   
-    
+	
+	margin: 0;
+	padding: 0;
 }
+
 
 .container {
-    width: 100%;
-    max-width: 1024px;
-    margin: 0 auto;
-}
-
-.header-main {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 1em;
-    align-items: center;
-}
-
-.logo {
-    border-radius: 50%;
-        
-}
-.header-navbar {
-    display: flex;
-    align-items: center;
-    gap: 3em;
-
-}
-.nav-menu {
-    color: #A9A5A6;
-    transition: all 1s;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-    list-style-type: none;
-    text-decoration: none;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
 }
 
 
+header {
+	background-color: #218723;
+	color: #fff;
+	width: 100%;
+	font-weight: 600;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 2em;
+	
+	margin-top: 5px;
+}
+
+img {
+	justify-content: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+header nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 2em;
+}
+
+header nav ul {
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+	list-style: none;
+}
+
+
+	
+
+
+
+
+header nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+  
+h1 {
+	align-items: center;
+	padding-top: 1.5em;
+}
+h2 {
+	color: #084519;
+	font-weight: 700;
+}
+section {
+	padding-top: 4em;
+}
+
+section h2 {
+	margin-top: 0;
+}
+
+section ul {
+	
+	list-style: none;
+}
+
+
+footer {
+	background-color: #f2f2f2;
+	padding: 20px 0;
+	text-align: center;
+}
+
+footer p {
+	margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+	header h1 {
+		font-size: 24px;
+	}
+
+	header nav {
+		display: block;
+		float: none;
+		margin-top: 20px;
+	}
+
+	header nav ul li {
+		display: block;
+		margin-left: 0;
+		margin-bottom: 10px;
+	}
+
+	section {
+		padding: 50px 0;
+	}
+}
